@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>人文摄影内容理解与文案优化器 | Jiacong Xu</title>
+<style>
+:root{--ink:#172033;--muted:#64748b;--blue:#2563eb;--blue2:#60a5fa;--soft:#eff6ff;--line:#dbeafe;--orange:#f97316;--green:#16a34a;--shadow:0 24px 70px rgba(37,99,235,.13);--radius:26px}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;color:var(--ink);background:radial-gradient(circle at 12% 8%,rgba(96,165,250,.28),transparent 28%),radial-gradient(circle at 88% 18%,rgba(124,58,237,.14),transparent 30%),linear-gradient(135deg,#f8fbff,#eef5ff);min-height:100vh}.wrap{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.hero{position:relative;overflow:hidden;background:rgba(255,255,255,.86);backdrop-filter:blur(18px);border:1px solid rgba(219,234,254,.9);border-radius:34px;box-shadow:var(--shadow);padding:34px 36px;margin-bottom:24px}.kicker{display:inline-flex;gap:8px;align-items:center;padding:7px 12px;border-radius:999px;background:#eef6ff;color:#1d4ed8;font-weight:800;font-size:13px;margin-bottom:14px}h1{font-size:40px;line-height:1.12;margin:0 0 12px;letter-spacing:-.04em}.lead{font-size:16px;color:#475569;line-height:1.85;margin:0;max-width:900px}.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:24px}.flowitem{background:#fff;border:1px solid #e5efff;border-radius:20px;padding:15px;box-shadow:0 12px 28px rgba(15,23,42,.06)}.flowitem b{display:block;color:#0f172a;margin-bottom:6px}.flowitem span{color:var(--muted);font-size:13px;line-height:1.45}.notice{margin-top:20px;border:1px solid #fed7aa;background:#fff7ed;color:#9a3412;padding:14px 16px;border-radius:18px;line-height:1.7;font-size:14px}.grid{display:grid;grid-template-columns:1.02fr .98fr;gap:24px;align-items:start}.card{background:rgba(255,255,255,.92);border:1px solid rgba(226,232,240,.9);border-radius:var(--radius);box-shadow:0 18px 45px rgba(15,23,42,.08);padding:26px}h2{font-size:23px;margin:0 0 18px;letter-spacing:-.02em}h3{font-size:17px;margin:18px 0 10px}label{display:block;font-weight:850;margin:16px 0 8px;color:#334155}textarea,input,select{width:100%;border:1px solid #cbd5e1;border-radius:18px;background:#fbfdff;padding:14px 15px;font:inherit;outline:none}textarea{min-height:104px;resize:vertical;line-height:1.7}textarea:focus,input:focus,select:focus{border-color:var(--blue2);box-shadow:0 0 0 4px rgba(96,165,250,.18)}.upload{border:2px dashed #cbd5e1;border-radius:22px;min-height:250px;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#fbfdff,#f8fafc);overflow:hidden;transition:.18s ease;text-align:center;color:#94a3b8}.upload.drag{border-color:var(--blue);background:#eff6ff}.upload img{width:100%;height:100%;max-height:360px;object-fit:contain;display:block}.upload-placeholder{line-height:1.8;padding:20px}.upload-placeholder strong{display:block;color:#475569;font-size:15px}.fileline{display:flex;gap:10px;align-items:center;margin:12px 0 0}input[type=file]{background:#f8fafc;border-radius:14px;padding:11px}.btnrow{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}button{border:0;border-radius:999px;padding:12px 18px;font-weight:900;cursor:pointer;font-size:15px;transition:.12s ease}button:hover{transform:translateY(-1px)}button:active{transform:translateY(0)}.primary{color:#fff;background:linear-gradient(135deg,#2563eb,#1d4ed8);box-shadow:0 14px 26px rgba(37,99,235,.25)}.secondary{color:#1d4ed8;background:#eff6ff}.dark{color:#fff;background:#0f172a}.status{margin-top:10px;color:var(--muted);font-size:14px;min-height:20px}.pillrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.pill{display:inline-flex;align-items:center;gap:6px;padding:8px 10px;border:1px solid #dbeafe;border-radius:999px;background:#f8fbff;color:#1d4ed8;font-size:13px;font-weight:800}.result-empty{background:#f8fafc;border:1px solid #e2e8f0;border-radius:20px;padding:26px;color:#64748b;line-height:1.8}.scorehero{display:grid;grid-template-columns:130px 1fr;gap:18px;align-items:center;margin-bottom:20px}.circle{width:122px;height:122px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:conic-gradient(var(--blue) 0deg,var(--blue2) 280deg,#e2e8f0 280deg 360deg);position:relative}.circle:before{content:"";position:absolute;width:94px;height:94px;border-radius:50%;background:#fff}.circle span{position:relative;z-index:1;font-size:28px;font-weight:950;color:#1d4ed8}.scoretitle b{font-size:21px}.scoretitle p{margin:8px 0 0;color:#64748b;line-height:1.7;font-size:14px}.rubric{display:grid;gap:12px;margin:18px 0 20px}.score-row{display:grid;grid-template-columns:120px 1fr 50px;gap:12px;align-items:center}.score-row .name{font-weight:800;font-size:14px}.bar{height:11px;background:#e2e8f0;border-radius:999px;overflow:hidden}.fill{height:100%;border-radius:999px;background:linear-gradient(90deg,#60a5fa,#2563eb)}.score-num{font-weight:900;color:#1d4ed8}.panel{border-radius:20px;border:1px solid #e2e8f0;background:#f8fafc;padding:18px;margin-top:16px}.panel.accent{border-left:5px solid var(--blue)}.panel.orange{border-left:5px solid var(--orange);background:#fff7ed}.panel.green{border-left:5px solid var(--green);background:#f0fdf4}.panel h3{margin-top:0}.panel p,.panel li{line-height:1.8}.rewrites{display:grid;gap:12px}.rewrite{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:14px 15px;line-height:1.8}.tag{display:inline-block;margin:4px 6px 4px 0;padding:6px 10px;background:#e0f2fe;color:#075985;border-radius:999px;font-size:12px;font-weight:900}.compare{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.compare div{border:1px solid #e5e7eb;background:#fff;border-radius:16px;padding:13px;line-height:1.7}.compare b{display:block;margin-bottom:6px}.mini{color:#64748b;font-size:13px;line-height:1.7}.footer{text-align:center;color:#64748b;font-size:13px;margin-top:24px}@media(max-width:900px){.grid,.flow,.compare,.scorehero{grid-template-columns:1fr}h1{font-size:31px}.wrap{padding:22px 14px 48px}.hero,.card{padding:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <div class="kicker">✨ Vibe Coding Demo · AI 人文训练作品</div>
+    <h1>人文摄影内容理解与文案优化器</h1>
+    <p class="lead">一个面向小红书旅行、人文与生活方式摄影内容的 AI 交互原型。它把“这段文案哪里空、哪里油、哪里不贴图”拆解为可执行的评分规则，并通过上传图片、场景识别、文案评估与改写建议，展示 AI 输出理想态的定义方式。</p>
+    <div class="flow">
+      <div class="flowitem"><b>1. 上传照片</b><span>预览图片，并模拟多模态模型理解视觉内容。</span></div>
+      <div class="flowitem"><b>2. 场景理解</b><span>生成可修正的场景、情绪与视觉元素描述。</span></div>
+      <div class="flowitem"><b>3. 文案评估</b><span>五维评分，判断 AI 或人工文案的质量。</span></div>
+      <div class="flowitem"><b>4. 优化输出</b><span>给出诊断、改写、标签与 A/B 方向。</span></div>
+    </div>
+    <div class="notice">当前版本为浏览器端交互原型，未接入真实多模态模型 API。图片理解部分通过前端规则模拟 AI 工作流，用于验证产品逻辑与交互体验；后续可接入 GPT-4o / Claude Vision / Qwen-VL，实现真实图片识别与动态生成。</div>
+  </section>
+
+  <div class="grid">
+    <section class="card">
+      <h2>输入区：图片理解与文案提交</h2>
+      <label for="photo">上传照片</label>
+      <div id="dropzone" class="upload"><div class="upload-placeholder"><strong>点击下方按钮选择图片，或拖拽图片到这里</strong><span>支持旅行、人文、生活方式、人像等照片</span></div></div>
+      <div class="fileline"><input id="photo" type="file" accept="image/*" /></div>
+      <div class="btnrow"><button class="primary" id="recognizeBtn" type="button">识别照片场景</button><button class="secondary" id="exampleBtn" type="button">载入示例</button><button class="secondary" id="clearBtn" type="button">清空</button></div>
+      <div id="status" class="status">等待上传图片或点击“载入示例”。</div>
+      <label for="scene">场景描述（可手动修正）</label>
+      <textarea id="scene" placeholder="例如：清晨的梯田，原本半夜想看星空但睡过头，后来赶上了日出。"></textarea>
+      <div class="pillrow"><span class="pill">画面元素</span><span class="pill">情绪氛围</span><span class="pill">人文关系</span><span class="pill">平台语境</span></div>
+      <label for="caption">原始文案</label>
+      <textarea id="caption" placeholder="例如：太阳照常升起，要做的不过是等待。"></textarea>
+      <label for="tone">希望优化方向</label>
+      <select id="tone"><option value="balanced">克制、真实、有画面感</option><option value="xhs">更适合小红书传播</option><option value="essay">更人文，更像旅行随笔</option><option value="title">更简洁，更有标题感</option></select>
+      <div class="btnrow"><button class="dark" id="evaluateBtn" type="button">开始评估与优化</button></div>
+    </section>
+    <section class="card"><h2>输出区：AI 评估与优化结果</h2><div id="result" class="result-empty">等待输入。<br>建议先点击“载入示例”测试完整流程，再上传自己的照片录屏展示。</div></section>
+  </div>
+  <div class="footer">Created by Jiacong Xu · Humanistic AI Output Standard · Vibe Coding Prototype</div>
+</div>
+
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  let imageLoaded = false;
+  let currentImageMeta = {type:'generic', filename:''};
+  const dropzone = $('dropzone');
+  const fileInput = $('photo');
+  function setStatus(text){$('status').textContent=text;}
+  function previewFile(file){
+    if(!file)return;
+    const reader=new FileReader();
+    reader.onload=function(e){
+      dropzone.innerHTML='<img src="'+e.target.result+'" alt="上传照片预览">';
+      imageLoaded=true; currentImageMeta.filename=file.name.toLowerCase(); guessMetaByFilename(currentImageMeta.filename);
+      setStatus('图片已上传。下一步：点击“识别照片场景”。');
+    };
+    reader.onerror=function(){setStatus('图片读取失败，请换一张图片，或点击“载入示例”。');};
+    reader.readAsDataURL(file);
+  }
+  function guessMetaByFilename(name){
+    if(name.includes('证件')||name.includes('头像')||name.includes('portrait')||name.includes('headshot')) currentImageMeta.type='portrait';
+    else if(name.includes('日出')||name.includes('sunrise')||name.includes('morning')||name.includes('梯田')) currentImageMeta.type='sunrise';
+    else if(name.includes('cat')||name.includes('猫')) currentImageMeta.type='cat';
+    else if(name.includes('dog')||name.includes('狗')) currentImageMeta.type='dog';
+    else if(name.includes('sea')||name.includes('海')||name.includes('road')||name.includes('公路')) currentImageMeta.type='travel';
+    else currentImageMeta.type='generic';
+  }
+  fileInput.addEventListener('change', e => previewFile(e.target.files && e.target.files[0]));
+  dropzone.addEventListener('dragover', e=>{e.preventDefault();dropzone.classList.add('drag');});
+  dropzone.addEventListener('dragleave', ()=>dropzone.classList.remove('drag'));
+  dropzone.addEventListener('drop', e=>{e.preventDefault();dropzone.classList.remove('drag');const f=e.dataTransfer.files&&e.dataTransfer.files[0]; if(f&&f.type.startsWith('image/'))previewFile(f);else setStatus('请拖入图片文件。');});
+  $('recognizeBtn').addEventListener('click', recognizeScene); $('exampleBtn').addEventListener('click', loadExample); $('clearBtn').addEventListener('click', clearAll); $('evaluateBtn').addEventListener('click', evaluateCaption);
+  function recognizeScene(){
+    let text='';
+    if(!imageLoaded){text='清晨的梯田在第一缕阳光中慢慢显影，原本计划半夜起床看星空却睡过头，后来在微冷的山路上赶上了日出。画面安静、明亮，带有一点错过之后重新抵达的情绪。';setStatus('未上传图片。已生成示例场景，便于继续体验完整流程。');}
+    else if(currentImageMeta.type==='portrait'){text='一张正面人像照片，人物面对镜头，背景简洁，神情平静，画面整体干净正式，适合用于简历、求职材料或个人介绍场景。';setStatus('已生成模拟识别结果：人像/求职照场景。');}
+    else if(currentImageMeta.type==='sunrise'){text='清晨自然风景，光线从远处慢慢升起，画面开阔安静，带有等待之后抵达的情绪，适合旅行、人文与生活方式摄影表达。';setStatus('已生成模拟识别结果：清晨/日出场景。');}
+    else if(currentImageMeta.type==='cat'){text='一只猫出现在街巷、庙宇或建筑空间中，画面带有偶遇感和生活气息，适合表达城市漫游、日常观察与人与动物之间的短暂连接。';setStatus('已生成模拟识别结果：猫/生活方式场景。');}
+    else if(currentImageMeta.type==='dog'){text='一只小狗出现在村落、街道或旅途中，画面自然亲近，带有偶遇、陪伴和生活温度，适合人文旅行内容。';setStatus('已生成模拟识别结果：狗/人文旅行场景。');}
+    else if(currentImageMeta.type==='travel'){text='一张旅行路上的风景照片，可能包含道路、海面、天空或远处地平线。画面具有开阔感和移动感，适合表达出发、抵达与路途中细小的情绪变化。';setStatus('已生成模拟识别结果：旅行/风景场景。');}
+    else{text='一张旅行、人文或生活方式照片，画面中可能包含具体地点、光线、人物或日常细节。整体氛围适合被转化为具有画面感、情绪克制和人文观察力的社媒文案。';setStatus('已生成通用模拟识别结果。可根据真实照片手动修正。');}
+    $('scene').value=text;
+  }
+  function loadExample(){
+    dropzone.innerHTML='<div class="upload-placeholder"><strong>示例照片：清晨梯田 / 错过星空 / 赶上日出</strong><span style="font-size:52px;display:block;margin-top:12px">🌄</span></div>';
+    imageLoaded=true;currentImageMeta.type='sunrise';
+    $('scene').value='清晨的梯田在第一缕阳光中慢慢显影，原本计划半夜起床看星空却睡过头，后来在微冷的山路上赶上了日出。画面安静、明亮，带有一点错过之后重新抵达的情绪。';
+    $('caption').value='太阳照常升起，要做的不过是等待。';$('tone').value='balanced';setStatus('示例已载入。下一步：点击“开始评估与优化”。');evaluateCaption();
+  }
+  function clearAll(){fileInput.value='';dropzone.innerHTML='<div class="upload-placeholder"><strong>点击下方按钮选择图片，或拖拽图片到这里</strong><span>支持旅行、人文、生活方式、人像等照片</span></div>';$('scene').value='';$('caption').value='';$('tone').value='balanced';imageLoaded=false;currentImageMeta={type:'generic',filename:''};$('result').className='result-empty';$('result').innerHTML='等待输入。<br>建议先点击“载入示例”测试完整流程，再上传自己的照片录屏展示。';setStatus('已清空。');}
+  function evaluateCaption(){
+    const scene=$('scene').value.trim(), caption=$('caption').value.trim(), tone=$('tone').value, result=$('result');
+    if(!scene||!caption){result.className='result-empty';result.innerHTML='请先填写“场景描述”和“原始文案”。如果想快速体验，可以点击左侧“载入示例”。';return;}
+    const scores=calculateScores(scene,caption); const avg=(scores.reduce((a,b)=>a+b,0)/5).toFixed(1); const circleDeg=Math.round(avg/5*360);
+    result.className='';
+    result.innerHTML=`<div class="scorehero"><div class="circle" style="background:conic-gradient(var(--blue) 0deg,var(--blue2) ${circleDeg}deg,#e2e8f0 ${circleDeg}deg 360deg)"><span>${avg}</span></div><div class="scoretitle"><b>综合评分 ${avg} / 5</b><p>该评分来自五个维度的启发式评估。它不是判断“文案好坏”的唯一标准，而是把人文审美拆解成可讨论、可迭代的规则。</p></div></div><div class="rubric">${scoreRow('画面具体性',scores[0])}${scoreRow('情绪克制度',scores[1])}${scoreRow('人文观察力',scores[2])}${scoreRow('平台适配度',scores[3])}${scoreRow('原创感',scores[4])}</div><div class="panel accent"><h3>诊断建议</h3><p>${buildDiagnosis(scores,scene,caption,tone)}</p></div><div class="panel green"><h3>优化版本</h3><div class="rewrites">${buildRewrites(scene,caption,tone)}</div></div><div class="panel orange"><h3>A/B 测试方向</h3><div class="compare"><div><b>A：标题吸引型</b>${buildAB(caption,scene).a}</div><div><b>B：人文留白型</b>${buildAB(caption,scene).b}</div></div></div><div class="panel"><h3>推荐标签</h3><span class="tag">#旅行摄影</span><span class="tag">#人文摄影</span><span class="tag">#生活方式</span><span class="tag">#小红书图文</span><span class="tag">#慢旅行</span><p class="mini">产品思考：如果接入真实模型 API，下一步可加入“图文匹配度评分”“标题点击预测”“创作者个人风格记忆”等模块。</p></div>`;
+  }
+  function calculateScores(scene,caption){
+    const text=scene+' '+caption; const visualWords=['光','清晨','日出','星空','梯田','街','海','山','雨','风','树','村','寺','猫','狗','人','窗','路','背景','镜头','画面','颜色']; const emotionWords=['等','想','记','温柔','安静','孤独','快乐','遗憾','错过','抵达','生活','人间','心','时间','记忆']; const clicheWords=['治愈','绝绝子','氛围感','封神','人生照片','好美','值得','浪漫至死','宝藏','松弛感'];
+    const has=arr=>arr.filter(w=>text.includes(w)).length;
+    let visual=2.8+Math.min(2.2,has(visualWords)*0.38), emotion=3.2+Math.min(1.5,has(emotionWords)*0.28), human=3.0+Math.min(1.6,has(['人','生活','记忆','等待','错过','抵达','旅途','城市','村落','关系','动物','时间'])*0.32), platform=caption.length<=72?4.2:3.6, original=4.2;
+    clicheWords.forEach(w=>{if(text.includes(w)){emotion-=.35;original-=.45;platform-=.18;}}); if(caption.length<10){visual-=.3;platform+=.2;} if(caption.length>100){emotion-=.3;platform-=.5;} return [visual,emotion,human,platform,original].map(clamp);
+  }
+  function clamp(n){return Math.max(1,Math.min(5,Math.round(n*10)/10));}
+  function scoreRow(label,score){return `<div class="score-row"><div class="name">${label}</div><div class="bar"><div class="fill" style="width:${score*20}%"></div></div><div class="score-num">${score}</div></div>`;}
+  function buildDiagnosis(scores,scene,caption,tone){const toneMap={balanced:'克制、真实、有画面感',xhs:'更适合小红书传播',essay:'更人文，更像旅行随笔',title:'更简洁，更有标题感'};let lines=[];lines.push(scores[0]>=4?'文案与场景之间已经形成较好的视觉连接，能让读者感知画面氛围。':'画面细节仍偏少，建议补充光线、空间、动作或具体物件，让文字更像从照片中长出来。');lines.push(scores[1]>=4?'情绪表达较克制，有留白感，适合人文摄影与生活方式内容。':'情绪表达可以再收一点，避免把照片直接解释成鸡汤或过度抒情的结论。');lines.push(scores[2]>=4?'内容已经具备一定人文观察力，能把风景、时间和个人经验连接起来。':'可以进一步加入人与地点、时间或记忆之间的关系，让它不只是描述画面，也呈现观察。');lines.push('本次优化方向为：'+toneMap[tone]+'。');return lines.join('');}
+  function buildRewrites(scene,caption,tone){if(/日出|清晨|梯田|星空|等待|错过/.test(scene+caption))return '<div class="rewrite"><b>版本 1｜短标题感</b><br>错过星空，赶上日出。</div><div class="rewrite"><b>版本 2｜人文随笔感</b><br>原本想半夜起床看星空，结果睡过了头。清晨走到山上时，梯田在第一束光里慢慢亮起来。后来想想，旅行并不是抓住每一个计划，而是在错过之后，还能安静地遇见另一个开始。</div><div class="rewrite"><b>版本 3｜平台发布感</b><br>太阳照常升起。只是这一次，我刚好站在山风里，学会晚一点抵达也没有关系。</div>'; if(/证件|头像|简历|求职|人像/.test(scene+caption))return '<div class="rewrite"><b>版本 1｜正式克制</b><br>一张干净、克制、适合求职场景的人像。不刻意表现，只保留清晰、可靠和真诚。</div><div class="rewrite"><b>版本 2｜轻叙事</b><br>把复杂的自我介绍先收起来，留给镜头一个安静但确定的开始。</div>'; if(/猫|狗|动物|小狗|小猫/.test(scene+caption))return '<div class="rewrite"><b>版本 1｜温度感</b><br>旅途中短暂相遇的小生命。它没有说什么，却让这个地方忽然有了温度。</div><div class="rewrite"><b>版本 2｜留白感</b><br>有些偶遇很轻，却会让一段路变得柔软。</div>'; return '<div class="rewrite"><b>版本 1｜克制表达</b><br>把眼前的光、地点和心情都稍微放慢一点。不是每张照片都需要热闹，有些画面适合安静地被看见。</div><div class="rewrite"><b>版本 2｜生活方式</b><br>在普通的一刻里，生活露出了一点值得停下来的纹理。</div>';}
+  function buildAB(caption,scene){if(/日出|清晨|梯田|星空/.test(scene+caption))return {a:'错过星空，赶上日出｜适合提升标题记忆点。',b:'有些风景，是在等待之后慢慢显影的｜适合更克制的人文表达。'}; return {a:'今天的光，替我记了一笔｜适合生活方式图文标题。',b:'普通的一刻，也可以被认真看见｜适合人文观察型表达。'};}
+  loadExample();
+})();
+</script>
+</body>
+</html>
